@@ -237,10 +237,24 @@ body{
 footer{
     text-align: center;
     background-color: #001931;
+    padding: 120px 120px 30px 120px;
     
 }
 .footer-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.footer-section p{
+    color: #FFFFFF;
+}
+small{
+    color: #FFFFFF;
+}
+hr{
+    margin-top: 80px;
+    
+}
+ footer a i{
+    color: #FFFFFF;
 }
