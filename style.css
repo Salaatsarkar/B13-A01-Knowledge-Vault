@@ -156,10 +156,91 @@ body{
 .card_description{
     color: #627382;
     font-size: 16px;
+     font-family: "Inter", sans-serif;
 }
 .card img{
     background-color: #F95555;
     border-radius: 50%;
     padding: 20px;
     margin: 45px 0px 16px 0px;
+}
+
+/* brain section */
+
+.brain-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.brain-section{
+    margin: 120px;
+}
+.point{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+.brain-img{
+    border-radius: 12px;
+}
+.point img{
+    height: 20px;
+    width: 20px;
+}
+.solution{
+    color: #30B868;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+.brain-title{
+    color: #001931;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+}
+.brain-description{
+    color: #627382;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+.point p{
+    color: #001931;
+    font-family: "Inter", sans-serif;
+}
+.think-section{
+    margin: 120px;
+}
+.think-container{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+}
+.think-title{
+    color: #001931;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+.think-description{
+    color: #627382;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+.credit{
+    color: #627382;
+    font-size: 16px;
+     font-family: "Inter", sans-serif;
+
+}
+footer{
+    text-align: center;
+    background-color: #001931;
+    
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
