@@ -26,6 +26,9 @@ body{
 .header ul li{
     list-style: none;
 }
+.header  li a:hover{
+    color: green;
+}
 .btn{
     background-color: #30B868;
     border-radius: 4px;
@@ -171,7 +174,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
+    gap: 100px;
 }
 .brain-section{
     margin: 120px;
@@ -182,8 +185,18 @@ body{
     gap: 6px;
 
 }
+.brain-image{
+    width: 50%;
+}
 .brain-img{
     border-radius: 12px;
+    width: 100%;
+    height: auto;  
+}
+.brain-text{
+    width: 50%;
+    /* height: 396px; */
+
 }
 .point img{
     height: 20px;
@@ -209,6 +222,7 @@ body{
     color: #001931;
     font-family: "Inter", sans-serif;
 }
+/* think section */
 .think-section{
     margin: 120px;
 }
@@ -228,6 +242,7 @@ body{
     font-size: 16px;
     font-family: "Inter", sans-serif;
 }
+/* credit section */
 .credit{
     color: #627382;
     font-size: 16px;
@@ -251,8 +266,12 @@ footer{
 small{
     color: #FFFFFF;
 }
-hr{
+ footer hr{
     margin-top: 80px;
+    border: 0px;
+    height: 1px;
+    background-color: #505757;
+    
     
 }
  footer a i{
