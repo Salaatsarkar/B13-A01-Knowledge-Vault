@@ -172,9 +172,7 @@ body{
 
 .brain-container{
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    align-items: flex-start;
+    align-items: center;
     gap: 100px;
 }
 .brain-section{
@@ -191,14 +189,7 @@ body{
 }
 .brain-img{
     border-radius: 12px;
-    max-width:100%;
-    align-self: center;
-    /* height: auto;   */
-}
-.brain-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
 }
 .point img{
     height: 20px;
