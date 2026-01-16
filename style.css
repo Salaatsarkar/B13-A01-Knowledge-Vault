@@ -49,7 +49,7 @@ body{
     cursor: pointer;
 }
 .banner_container{
-    background-image: url(../assets/hero-bg.png);
+    background-image: url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 115px 120px;
